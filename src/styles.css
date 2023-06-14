@@ -1,58 +1,70 @@
-*{
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    color: #333;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: #bebebe;
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: #e5e5e5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
+  max-width: 1000px;
+  max-height: 750px;
+  color: #333;
+}
+
+a:hover {
+  color: #333;
+}
+
+a {
+  color: #333;
+}
+.menu-principal{
+  background-color: rgb(235, 0, 0);
+
+}
+.menu-principal a {
+  color: #e5e5e5;
+  margin: 0px;
+  text-decoration: none;
+}
+.menu-principal ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding-left: 0;
+  color: #333;
+  margin: 0px;
+  padding: 15px;
 justify-content: center;
-max-width: 1000px;
-max-height: 750px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+
+  .card-container>*:not(.circle-link),
+  .terminal {
+    width: 100%;
   }
 
-  a:hover {
-    color: #333;
+  .card:not(.highlight-card) {
+    height: 16px;
+    margin: 8px 0;
   }
-  
-  a {
-    color:  #333;
+
+  .card.highlight-card span {
+    margin-left: 72px;
   }
-  
-  .menu-principal ul {
-    display: flex;
-    gap: 16px;
-    list-style: none;
-    padding-left: 0;
-    color: #333;
-   
+
+  svg#rocket-smoke {
+    right: 120px;
+    transform: rotate(-5deg);
   }
-  
-  /* Responsive Styles */
-  @media screen and (max-width: 767px) {
-  
-    .card-container>*:not(.circle-link),
-    .terminal {
-      width: 100%;
-    }
-  
-    .card:not(.highlight-card) {
-      height: 16px;
-      margin: 8px 0;
-    }
-  
-    .card.highlight-card span {
-      margin-left: 72px;
-    }
-  
-    svg#rocket-smoke {
-      right: 120px;
-      transform: rotate(-5deg);
-    }
+}
+
+@media screen and (max-width: 575px) {
+  svg#rocket-smoke {
+    display: none;
+    visibility: hidden;
   }
-  
-  @media screen and (max-width: 575px) {
-    svg#rocket-smoke {
-      display: none;
-      visibility: hidden;
-    }
-  }
+}

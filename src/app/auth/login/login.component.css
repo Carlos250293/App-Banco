@@ -12,6 +12,7 @@ p{
     position: absolute;
   top: 15%;
   left: 15%;
+  text-align: center;
 }
 
 input{

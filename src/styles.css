@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #bebebe;
+justify-content: center;
+max-width: 1000px;
+max-height: 750px;
+  }
+
+  a:hover {
+    color: #333;
+  }
+  
+  a {
+    color:  #333;
+  }
+  
+  .menu-principal ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding-left: 0;
+    color: #333;
+   
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+  
+    .card-container>*:not(.circle-link),
+    .terminal {
+      width: 100%;
+    }
+  
+    .card:not(.highlight-card) {
+      height: 16px;
+      margin: 8px 0;
+    }
+  
+    .card.highlight-card span {
+      margin-left: 72px;
+    }
+  
+    svg#rocket-smoke {
+      right: 120px;
+      transform: rotate(-5deg);
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    svg#rocket-smoke {
+      display: none;
+      visibility: hidden;
+    }
+  }

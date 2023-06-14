@@ -1,1 +1,5 @@
-<p>login works!</p>
+<section class="login">
+    <input [(ngModel)]="email" placeholder="Email" type="email">
+    <input [(ngModel)]="password" placeholder="Contraseña" type="password">
+    <button (click)="validarLogin()" class="btn btn-primary">Iniciar sesión</button>
+</section>

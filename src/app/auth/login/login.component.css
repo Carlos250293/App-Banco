@@ -1,21 +1,25 @@
 p{
-    display: flex;
     background-color: #e2e2e2;
     text-align: center;
-    margin: 20px;
 }
 
 .login {
-    width: 500px;
-    height: 500px;
-    background-color: #e2e2e2;
-    position: absolute;
-  top: 15%;
-  left: 15%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
   text-align: center;
+align-items: center;
+padding-top: 75px;
 }
 
 input{
-    width: 150px;
+    width: 200px;
     height: 30px;
+    background-color: #c1c1c1;
+    border: none;
+    margin: 5px;
 }

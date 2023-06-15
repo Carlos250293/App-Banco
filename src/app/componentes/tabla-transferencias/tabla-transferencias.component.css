@@ -1,0 +1,19 @@
+
+.fila-tabla {
+    display: flex;
+    gap: 16px;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+.fila-tabla > div {
+    width: 50%;   
+    padding: 15px;
+}
+
+.cabecera-tabla{
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #333;
+    color: #e5e5e5;
+}

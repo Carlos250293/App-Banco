@@ -1,0 +1,21 @@
+.active-menu {
+    background-color: #478a24;
+    padding: auto;
+}
+
+.dropdown-menu {
+    position: relative;
+
+}
+
+.dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-menu:hover .submenu {
+    display: block;
+    background-color: #6fd42d;
+    width: 100%;
+    padding: 10px 12px;
+}

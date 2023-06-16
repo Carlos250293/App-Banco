@@ -1,23 +1,32 @@
 <header>
     <div class="name-bank">
-        <h1>NOMBRE BANCO</h1>
+        <h1>Green Bank</h1>
     </div>
 </header>
 <nav class="menu-principal">
     <ul>
-        <li><a routerLink="/auth/login">Iniciar sesion</a></li>
-        <li><a routerLink="/pages/dashboard"> Inicio</a></li>
-        <li><a routerLink="/pages/mi-cuenta"> Mi cuenta</a></li>
-        <li><a routerLink="/pages/transferencias"> Transferencias</a></li>
-        <li><a routerLink="/pages/nueva-transferencia"> Nueva transferencia</a></li>
-        <li><a routerLink="/pages/transferencias-recibidas"> Transferencias recibidas</a></li>
-        <li><a routerLink="/pages/transferencias-enviadas"> Transferencias enviadas</a></li>
-        <li><a routerLink="/pages/detalle-transferencia"> Detalle transferencia</a></li>
+        <li><a routerLinkActive="active-menu" routerLink="/auth/login">Iniciar sesion</a></li>
+        <li><a routerLinkActive="active-menu" routerLink="/pages/dashboard"> Inicio</a></li>
+        <li><a routerLinkActive="active-menu" routerLink="/pages/mi-cuenta"> Mi cuenta</a></li>
+        <li class="dropdown-menu"><a routerLinkActive="active-menu" routerLink="/pages/transferencias">
+                Transferencias</a>
+            <ul class="submenu">
+                <li><a routerLinkActive="active-menu" routerLink="/pages/nueva-transferencia"> Nueva
+                        transferencia</a></li>
+                <li><a routerLinkActive="active-menu" routerLink="/pages/transferencias-enviadas"> Transferencias
+                        enviadas</a></li>
+                <li><a routerLinkActive="active-menu" routerLink="/pages/transferencias-recibidas"> Transferencias
+                        recibidas</a></li>
+            </ul>
+
+        </li>
+        <!-- <li><a routerLinkActive="active-menu" routerLink="/pages/detalle-transferencia"> Detalle transferencia</a></li> -->
     </ul>
+
 </nav>
 <router-outlet></router-outlet>
 <footer>
     <div class="footer">
-        <p>Banco</p>
+        <p>Logo Banco</p>
     </div>
 </footer>

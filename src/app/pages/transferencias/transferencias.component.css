@@ -1,0 +1,22 @@
+.botones-transferencias{
+    display: flex;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+align-items: center;
+padding-top: 75px;
+}
+button{
+    font-size: 30px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 7px;
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+button:hover{
+    color:#478a24;
+}

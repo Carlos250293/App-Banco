@@ -1,1 +1,7 @@
-<p>detalle-transferencia works!</p>
+<div *ngIf="transferencia" class="detalle-transferencia">
+    <div>Transferencia de: {{transferencia.idOrdenante}}</div>
+    <div>Para: {{transferencia.idBeneficiario}}</div>
+    <div>Importe: {{ transferencia.importe | currency:'EUR' }}</div>
+    <div>Concepto: {{ transferencia.concepto }}</div>
+    <div>Fecha: {{ transferencia.fecha | date: 'short' }}</div>
+</div>

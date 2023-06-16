@@ -34,7 +34,7 @@ const routes: Routes = [
     component: TransferenciasComponent,
   },
   {
-    path: 'detalle-transferencia',
+    path: 'transferencias/:id',
     component: DetalleTransferenciaComponent,
   },
   

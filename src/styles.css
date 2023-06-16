@@ -2,7 +2,7 @@
   font-family: 'Raleway', sans-serif;
 }
 .name-bank{
-  background-color: rgb(235, 0, 0);
+  background-color: #478a24;
   color: #e5e5e5;
   text-align: center;
   top: 0;
@@ -18,13 +18,11 @@ body {
   background-color: #e5e5e5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 1000px;
-  max-height: 750px;
   color: #333;
 }
 
 a:hover {
-  color: #333;
+  color: #6fd42d;
 }
 
 a {
@@ -32,19 +30,20 @@ a {
 }
 
 .menu-principal {
-  background-color: #535353;
+  background-color: #6fd42d;
 
 }
 
 .menu-principal a {
-  color: #e5e5e5;
+  color: #333;
   margin: 0px;
   text-decoration: none;
   font-size: 14px;
+  padding: 15px;
 }
 
 .menu-principal a:hover{
-  color: rgb(235, 0, 0);
+  color: #e5e5e5;
 }
 
 .menu-principal ul {
@@ -52,9 +51,9 @@ a {
   gap: 16px;
   list-style: none;
   padding-left: 0;
-  color: #333;
+  color: #6fd42d;
+  padding: 14px;
   margin: 0px;
-  padding: 15px;
   justify-content: center;
 }
 
@@ -69,7 +68,11 @@ button {
 }
 
 button:hover{
-  color: rgb(235, 0, 0);
+  color: #6fd42d;
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 
 footer {

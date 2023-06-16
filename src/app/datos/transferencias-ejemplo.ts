@@ -9,7 +9,7 @@ export const transferenciasRecibidas = [
     },
     {
         id: 2,
-        idGestor:1,
+        idOrdenante:1,
         idBeneficiario: 2,
         importe: 1050,
         concepto: "Nomina",
@@ -17,7 +17,7 @@ export const transferenciasRecibidas = [
     },
     {
         id: 4,
-        idGestor:1,
+        idOrdenante:1,
         idBeneficiario: 2,
         importe: 650,
         concepto: "Alquiler",
@@ -36,7 +36,7 @@ export const transferenciasEnviadas = [
     },
     {
         id: 2,
-        idGestor:1,
+        idOrdenante:1,
         idBeneficiario: 6,
         importe: 25,
         concepto: "Cena despedida",
@@ -44,7 +44,7 @@ export const transferenciasEnviadas = [
     },
     {
         id: 4,
-        idGestor:1,
+        idOrdenante:1,
         idBeneficiario: 5,
         importe: 2205,
         concepto: "Traje boda",
